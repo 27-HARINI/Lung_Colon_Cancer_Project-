@@ -63,3 +63,6 @@ This project is an AI-based system designed to detect lung and colon cancer from
 ##  How to Run
 pip install -r requirements.txt
 streamlit run app.py
+
+## Author
+Harini Ilango
