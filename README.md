@@ -2,6 +2,11 @@
 
 ##  Project Overview
 This project is an AI-based system designed to detect lung and colon cancer from histopathology images using deep learning techniques. It uses an ensemble of Xception and ResNet models to improve classification accuracy and reliability.
+# Lung & Colon Cancer Detection
+
+## 🚀 Live Demo
+
+👉 [Open the AI Lung & Colon Cancer Detection App](https://3bhbrd8jjmwbcalwf6bhwu.streamlit.app/)
 
 ---
 
