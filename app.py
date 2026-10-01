@@ -4,10 +4,21 @@ import tensorflow as tf
 import cv2
 from PIL import Image
 from tensorflow.keras.models import load_model
+from huggingface_hub import hf_hub_download
 
 # ---------------- LOAD MODELS ----------------
-xception_model = load_model("models/xception_model.h5")
-resnet_model = load_model("models/resnet_model.h5")
+xception_model_path = hf_hub_download(
+    repo_id="27harini/lung-colon-cancer-models",
+    filename="xception_model.h5"
+)
+
+resnet_model_path = hf_hub_download(
+    repo_id="27harini/lung-colon-cancer-models",
+    filename="resnet_model.h5"
+)
+
+xception_model = load_model(xception_model_path)
+resnet_model = load_model(resnet_model_path)
 
 classes = [
     "Colon Cancer",
