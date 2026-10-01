@@ -6,8 +6,8 @@ from PIL import Image
 from tensorflow.keras.models import load_model
 
 # ---------------- LOAD MODELS ----------------
-xception_model = load_model("xception_model.h5")
-resnet_model = load_model("resnet_model.h5")
+xception_model = load_model("models/xception_model.h5")
+resnet_model = load_model("models/resnet_model.h5")
 
 classes = [
     "Colon Cancer",
